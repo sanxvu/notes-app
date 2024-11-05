@@ -1,19 +1,20 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Notes App with Firebase
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Description
+A note-taking app built with React that allows users to create, update, and delete notes. This app integrates with Firebase to store and sync notes in real-time. It features a split layout with a sidebar to manage notes and an editor to view and modify selected notes.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features
+- **Create New Notes**: Add new notes with a default markdown title and body.
+- **Real-time Updates**: Notes are synced in real-time using Firebase’s onSnapshot for immediate updates to the app.
+- **Update Notes**: Edit the content of your notes, with automatic saving after a brief delay (debouncing).
+- **Delete Notes**: Remove notes from Firebase.
+- **Responsive Layout**: The app uses a split layout with a sidebar for navigation and an editor for viewing and editing notes.
+- **No Notes State**: If no notes exist, a prompt appears encouraging users to create one.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Technologies Used
+- **React**: JavaScript library for building the user interface.
+- **Firebase**: Real-time database to store and sync notes.
+- **React-Split**: For creating the split layout between the sidebar and editor.
+- **React Hooks**: For managing state (useState), handling side effects (useEffect), and interacting with Firebase.
 
-Happy Coding!
+![Screenshot 2024-11-05 at 2 32 41 PM](https://github.com/user-attachments/assets/4ff45e68-d060-4d42-8ebb-82c724c3dac2)
